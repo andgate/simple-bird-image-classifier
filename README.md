@@ -6,11 +6,17 @@ This is a tensorflow image classifier for bird species trained on the Caltech-UC
 #  Setup
 
 ## Python environment
+(Instructions are for windows only.)
 
-Create and activate a python virtual environment.
+Install (conda)[https://docs.conda.io/en/latest/miniconda.html].
 
-For example, on windows powershell:
+Create and activate our conda environment.
 ```
-python -m venv env
-.\env\Scripts\Activate.ps1
+conda env create -f environment.yaml
+conda activate birds
+```
+
+If you add dependencies, the environment can be updated with:
+```
+conda env update -f environment.yaml
 ```

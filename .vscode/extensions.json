@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.python",
+        "twixes.pypi-assistant",
+        "redhat.vscode-yaml",
+        "ms-python.flake8",
+        "njpwerner.autodocstring"
+    ]
+}

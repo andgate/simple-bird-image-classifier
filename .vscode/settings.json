@@ -1,0 +1,42 @@
+{
+    "python.formatting.provider": "none",
+    "python.linting.flake8Enabled": true,
+    "python.linting.banditEnabled": true,
+    "cSpell.words": [
+        "argmax",
+        "AUTOTUNE",
+        "bboxes",
+        "Caltech",
+        "convs",
+        "crossentropy",
+        "cudatoolkit",
+        "cudnn",
+        "dataframe",
+        "denormalize",
+        "dtype",
+        "figsize",
+        "Glorot",
+        "gradio",
+        "hflip",
+        "imshow",
+        "keras",
+        "logits",
+        "matplotlib",
+        "ndarray",
+        "pyplot",
+        "relu",
+        "softmax",
+        "tfds",
+        "UCSD",
+        "venv",
+        "vflip"
+    ],
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.linting.mypyEnabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.formatting.blackPath": "black"
+}
